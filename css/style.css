@@ -1,22 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+  }
+  
+  body{
+      background-color: black;
+      color: #F3F3F3; 
+  }
 
-/*
+/*==============================
     Get in tech
-*/
+=======================================*/
 
 .address{
     opacity: 0.60; 
-    /* color: #F5F5F5;  */
+    color: #F5F5F5; 
     font-size: 20px; 
     font-family: Gentium Basic; 
     font-weight: 400; 
     word-wrap: break-word
 }
 
+.message{
+    opacity: 0.60; 
+    color: #F3F3F3; 
+    font-size: 16px;
+     font-family: Gentium Basic; 
+     font-weight: 400; 
+     line-height: 19.88px; 
+     word-wrap: break-word
+}
 
-.a{
-    margin: 0rem 23.1rem 1.2rem 0rem;
-    width: calc(100% - 23.1rem);
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
+
+/*================================================
+    Footer 
+================================================*/
+#main-footer{
+    overflow: hidden;
+}
+.copyright-line{
+    opacity: 0.20; 
+    border: 1px #F3F3F3 solid;
+    margin-bottom: 20px;
+}
+.copyright{
+    opacity: 0.40; 
+    color: #F3F3F3; 
+    font-size: 16px;
+    font-family: Gentium Basic; 
+    font-weight: 400; 
+    line-height: 19.88px; 
+    word-wrap: break-word;
+    text-align: center;
 }
