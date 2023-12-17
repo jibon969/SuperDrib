@@ -32,6 +32,23 @@
 }
 
 
+.support-section{
+    overflow: hidden;
+    display: block;
+}
+
+.support{
+    color: white; 
+    font-size: 48px; 
+    font-family: Eczar; 
+    font-weight: 500; 
+    line-height: 68px; 
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /*================================================
     Footer 
 ================================================*/
