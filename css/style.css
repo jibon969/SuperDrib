@@ -1,0 +1,22 @@
+
+/*
+    Get in tech
+*/
+
+.address{
+    opacity: 0.60; 
+    /* color: #F5F5F5;  */
+    font-size: 20px; 
+    font-family: Gentium Basic; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+
+.a{
+    margin: 0rem 23.1rem 1.2rem 0rem;
+    width: calc(100% - 23.1rem);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
