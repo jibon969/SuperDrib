@@ -123,7 +123,7 @@ body{
 }
 
 
-.super-gmail-com, .contact_number {
+.super-gmail-com{
     color: #f5f5f5;
     text-align: left;
     font-family: "GentiumBasic-Bold", sans-serif;
@@ -131,7 +131,6 @@ body{
     font-weight: 700;
     text-decoration: underline;
     position: relative;
-    margin-bottom: 50px;
 }
 
 .rectangle-box {
@@ -151,7 +150,7 @@ body{
     line-height: 34px;
     font-weight: 400; 
     position: relative;
-    margin-top: 10px;
+    margin: 10px;
 }
 .email-link{
     text-decoration: none;
@@ -166,6 +165,7 @@ body{
     display: block;
     margin-top: 20px;
 }
+
 .find-our-locations {
     color: #ffffff;
     text-align: left;
@@ -184,26 +184,25 @@ body{
     width: 64px;
     height: 0px;
     position: relative;
-  }
+}
 
-  .rectangle-249 {
+.rectangle-249 {
     box-sizing: border-box;
     background: #242424;
     width: 151px;
     height: 151px;
     position: relative;
-  }
+}
 
-  .mdi-weather-night {
+.mdi-weather-night {
     /* width: 32px;
     height: 32px;
     position: relative;
     overflow: visible; */
     font-size: 30px;
-
 }
 
-  .temperature {
+.temperature {
     color: #f3f3f3;
     text-align: center;
     font-family: "GentiumBasic-Bold", sans-serif;
@@ -307,6 +306,9 @@ body{
     text-decoration: underline;
     position: relative;
 }
+
+
+
 .location-info{
     overflow: hidden;
     display: block;
@@ -376,13 +378,13 @@ body{
     position: relative;
     margin-bottom: 50px;
 }
-.image-icon {
+.social-media {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.ellipse-123 {
+.social-icon{
     box-sizing: border-box;
     background: #f3f3f3;
     border-radius: 50%;
@@ -393,20 +395,16 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 30px;
+    margin-bottom: 10px;
 }
 
-.mdi-instagram {
+.image {
     box-sizing: border-box;
     width: 36px;
     height: 36px;
     position: relative;
     overflow: visible;
 }
-
-
-
-
-
 
 /*================================================
     .support 
