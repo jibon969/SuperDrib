@@ -13,6 +13,29 @@ body{
     display: block;
 }
 
+.how-we-work,
+.how-we-work * {
+  box-sizing: border-box;
+}
+.how-we-work {
+  color: var(--white, #f3f3f3);
+  text-align: left;
+  font-family: "Eczar-SemiBold", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  position: relative;
+}
+
+
+.how-we-work-title {
+    color:  #f3f3f3;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    position: relative;
+  }
+
 .get-in-touch-title {
     box-sizing: border-box;
     color: #f5f5f5;
@@ -22,8 +45,9 @@ body{
     font-weight: 700;
     position: relative;
 }
+
 .left-line {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     border-style: solid;
     border-color: #f3f3f3;
     border-width: 3px 0 0 0;
@@ -32,9 +56,7 @@ body{
     position: relative;
     transform-origin: 0 0;
     transform: rotate(90deg) scale(1, 1);
-}
-.contact-address{
-    margin-bottom: 10px;
+    margin-left: -15px;
 }
 
 .address{
@@ -70,22 +92,249 @@ body{
     position: relative;
 }
 
+
+.contact-form-img{
+    box-sizing: border-box;
+    border-radius: 83px;
+    opacity: 0.4000000059604645;
+    width: 179px;
+    height: 172px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1);
+    align-self: flex-end; 
+    margin-top: auto;
+    margin-left: 600px;
+}
+
+
+.about-section{
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+/*=============================
+team
+=================================*/
+.team-section{
+    overflow: hidden;
+    display: block;
+}
+.team_title{
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Eczar-SemiBold", sans-serif; 
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 600;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0.046deg) scale(1, 1);
+    /* width: 832.29px; */
+}
+
+.employee-card,
+.employee-card * {
+    box-sizing: border-box;
+}
+
+.employee-card {
+    width: 331px;
+    height: 151px;
+    position: relative;
+}
+
+.card-wrapper {
+    position: absolute;
+    inset: 0;
+}
+
+.background-box {
+    background: #f3f3f3;
+    border-radius: 30px;
+    width: 331px;
+    height: 151px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.content-group {
+    width: 235px;
+    height: 55px;
+    position: static;
+}
+
+.text-group {
+    width: 149px;
+    height: 55px;
+    position: static;
+}
+
+.employee-name {
+    color: #020202;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - 117.5px);
+    top: calc(50% - 27.5px);
+}
+
+.employee-role {
+    color: #020202;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: absolute;
+    left: calc(50% - 117.5px);
+    top: calc(50% - -8.5px);
+}
+
+.icon-group {
+    width: 54px;
+    height: 54px;
+    position: static;
+}
+
+.profile-picture {
+    background: #d9d9d9;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left: 229px;
+    top: 48px;
+}
+
+.profile-icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 244px;
+    top: 63px;
+    overflow: visible;
+}
+
+
+/*==============================
+        how-we-work
+===============================*/
+.how-we-work{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.about-image{
+    width: 579px;
+    height: 507px;
+    background: rgba(6, 5, 7, 0.1);
+    border-radius: 90px;
+    position: relative;
+}
+.how-we-work-title{
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+._01,
+._02,
+._03 {
+    
+    box-sizing: border-box;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 128px;
+    font-weight: 700;
+    opacity: 0.5;
+    position: relative;
+}
+
+.line-89 {
+    box-sizing: border-box;
+    opacity: 0.2;
+    width: 334px;
+    height: 1px; /* Adjust the height as needed */
+    background-color: #333132; /* Set the color of the line */
+    margin: 0 20px; /* Adjust the margin as needed */
+}
+
+.ellipse-115 {
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid #333132; /* Set the color of the border */
+    width: 12px;
+    height: 12px;
+    position: relative;
+    margin-left: 20px; /* Adjust the margin as needed */
+} 
+
+.feature-box{
+    box-sizing: border-box;
+}
+
+.feature-img{
+    width: 62px;
+    height: 62px; 
+}
+
+
+.feature-box-title {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.feature-box-description{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    opacity: 0.4000000059604645;
+    position: relative;
+    width: 296px;
+}
+
+
+
+
 /*==============================
 		Contact us Section
 ===============================*/
 
-.let-s-work-together,
-.let-s-work-together * {
-  box-sizing: border-box;
-}
 .let-s-work-together {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Eczar-SemiBold", sans-serif;
-  font-size: 64px;
-  line-height: 84px;
-  font-weight: 600;
-  position: relative;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 600;
+    position: relative;
 }
 
 .line-105 {
