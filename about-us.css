@@ -26,7 +26,6 @@ body{
   position: relative;
 }
 
-
 .how-we-work-title {
     color:  #f3f3f3;
     text-align: left;
@@ -58,7 +57,6 @@ body{
     transform: rotate(90deg) scale(1, 1);
     margin-left: -15px;
 }
-
 .address{
     box-sizing: border-box;
     color: #f5f5f5;
@@ -92,7 +90,6 @@ body{
     position: relative;
 }
 
-
 .contact-form-img{
     box-sizing: border-box;
     border-radius: 83px;
@@ -107,18 +104,13 @@ body{
     margin-left: 600px;
 }
 
-
 .about-section{
     overflow: hidden;
     margin-bottom: 200px;
 }
 
-
-
-
-
 /*=============================
-team
+    Team Section
 =================================*/
 .team-section{
     overflow: hidden;
@@ -224,7 +216,6 @@ team
     overflow: visible;
 }
 
-
 /*==============================
         how-we-work
 ===============================*/
@@ -296,7 +287,6 @@ team
     height: 62px; 
 }
 
-
 .feature-box-title {
     box-sizing: border-box;
     color: #f5f5f5;
@@ -318,9 +308,6 @@ team
     position: relative;
     width: 296px;
 }
-
-
-
 
 /*==============================
 		Contact us Section
@@ -419,10 +406,6 @@ team
 .send-an-inquiry-btn:hover{
     color: #f3f3f3;
 }
-
-
-
-
 
 /*================================================
     .support 
