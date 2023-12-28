@@ -8,14 +8,15 @@ body{
     color: #ffffff;
 }
 
-/*================================================
-    Contact or get-in-touch
-================================================*/
 .get-in-touch-section{
     overflow: hidden;
     display: block;
 }
 
+
+/*==============================
+		Contact us Section
+===============================*/
 
 .let-s-work-together {
     box-sizing: border-box;
