@@ -86,6 +86,172 @@ body{
 }
 
 
+/*==============
+Our services
+=================*/
+.rectangle-242 {
+    background: rgba(9, 9, 9, 0.3);
+    width: 1440px;
+    height: 792px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .services {
+    position: absolute;
+    inset: 0;
+  }
+  .o {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+  .u {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 145px;
+    top: 48px;
+  }
+  .r {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 183px;
+    top: 48px;
+  }
+  .s {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 219px;
+    top: 44px;
+  }
+  .s2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 425px;
+    top: 50px;
+  }
+  .e {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 396px;
+    top: 46px;
+  }
+  .e2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 255px;
+    top: 44px;
+  }
+  .r2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 285px;
+    top: 41px;
+  }
+  .v {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 316px;
+    top: 41px;
+  }
+  .i {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 350px;
+    top: 41px;
+  }
+  .c {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+    left: 368px;
+    top: 44px;
+  }
+
+.services {
+    position: absolute;
+    inset: 0;
+  }
+  
+.service-item {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    position: absolute;
+}
+  
+.o { left: 100px; top: 48px; }
+.u { left: 145px; top: 48px; }
+.r { left: 183px; top: 48px; }
+.s { left: 219px; top: 44px; }
+.s2 { left: 425px; top: 50px; }
+.e { left: 396px; top: 46px; }
+.e2 { left: 255px; top: 44px; }
+.r2 { left: 285px; top: 41px; }
+.v { left: 316px; top: 41px; }
+.i { left: 350px; top: 41px; }
+.c { left: 368px; top: 44px; }
+  
+ 
+
 /*=======================
     Subscribe Form
 ======================*/
