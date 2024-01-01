@@ -8,6 +8,67 @@ body{
     color: #ffffff;
 }
 
+/*=======================
+    Subscribe Form
+======================*/
+.subscribe-section{
+    margin-top: 20px;
+}
+.about {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 72px;
+    line-height: 68px;
+    margin-bottom: 30px;
+}
+
+.line-92 {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color:#f3f3f3;
+    border-width: 1px 0 0 0;
+    opacity: 0.20000000298023224;
+    width: 300px;
+    height: 0px;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
+    margin-left: 200px;
+}
+
+.newsletter {
+    box-sizing: border-box;
+    color: #f3f3f3;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+}
+
+.email-form{
+    box-sizing: border-box;
+    background: #020202;
+    border-radius: 80px;
+    border-color: #f3f3f3;
+    color: #F3F3F3;
+    border-width: 1px;
+    opacity: 0.397;
+    width: 403px;
+    height: 55px;
+}
+
+.submit-from{
+    box-sizing: border-box;
+    background: #020202;
+    border-radius: 80px;
+    border-color: #f3f3f3;
+    border-width: 1px;
+    opacity: 0.397;
+    color: #F3F3F3;
+}
+
+
 
 /*==============================
 		get-in-touch-section 
