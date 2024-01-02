@@ -89,18 +89,12 @@ body{
 /*==============
 Our services
 =================*/
-.rectangle-242 {
-    background: rgba(9, 9, 9, 0.3);
-    width: 1440px;
-    height: 792px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-  }
-  .services {
+
+.service {
     position: absolute;
     inset: 0;
-  }
+    margin-left: 200px;
+}
   .o {
     color: #ffffff;
     text-align: left;
@@ -223,11 +217,7 @@ Our services
     top: 44px;
   }
 
-.services {
-    position: absolute;
-    inset: 0;
-  }
-  
+
 .service-item {
     color: #ffffff;
     text-align: left;
@@ -250,7 +240,41 @@ Our services
 .i { left: 350px; top: 41px; }
 .c { left: 368px; top: 44px; }
   
- 
+.our-services{
+    text-align: center;
+}
+
+.service-img{
+    width: 50px;
+    height: 50px;
+}
+
+.service-title{
+    color: #f3f3f3;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 8.47%;
+    bottom: 29.46%;
+    height: 21.71%;
+}
+
+.learn-more {
+    box-sizing: border-box;
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+}
+
+.learn-more a{
+    text-decoration: none;
+    color: #f3f3f3;
+} 
+
 
 /*=======================
     Subscribe Form
