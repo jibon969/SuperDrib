@@ -13,7 +13,7 @@ body{
     background-color: #020202;
     color: #ffffff;
     font-family: "Eczar-SemiBold", sans-serif;
-    padding:20px;
+    padding:30px;
 }
 
 /*========================================
@@ -22,65 +22,42 @@ body{
 
 .why-choose-us{
     overflow: hidden;
-    display: block;
+    display: block; 
 }
-
-.why-choose-img {
-    box-sizing: border-box;
-    width: 328px;
-    height: 512px;
+.why-title{
+    color: #f3f3f3;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: 500;
     position: relative;
 }
-.choose-img-container {
-  position: absolute;
-  inset: 0;
+.we-helped{
+    color: #fefefe;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+    width: 489px;
+    margin-left: 100px;
 }
 
-.choose-img {
-  width: 327.71px;
-  height: 312px;
-  position: static;
-  box-sizing: border-box;
-    border-style: solid;
-    border-color:#f3f3f3;
-    border-width: 1px 0 0 0;
-    opacity: 0.20000000298023224;
+.we-are-dedicated{
+    color: #fefefe;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+    width: 489px;
+    margin-right: 1500px;
 }
-
-.unsplash-img {
-  width: 407px;
-  height: 612px;
-  position: absolute;
-  left: -16px;
-  top: -55px;
-  object-fit: cover;
-  
-}
-
-.choose-rectangle {
-  background: rgba(217, 217, 217, 0.04);
-  border-radius: 464px;
-  width: 328px;
-  height: 512px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  box-shadow: inset -11.2px 11.2px 11.2px 0px rgba(174, 174, 174, 0.28),
-    inset -5.6px 5.6px 5.6px 0px rgba(255, 255, 255, 0.28),
-    inset 11.2px -11.2px 11.2px 0px rgba(255, 255, 255, 0.28),
-    inset 5.6px -5.6px 5.6px 0px rgba(174, 174, 174, 0.28);
-  backdrop-filter: blur(0px);
-}
-
-.component-6-icon {
-    position: absolute;
-    top: 0;
-    left: 495px;
-    width: 328px;
-    height: 512px;
-    object-fit: cover;
-}
-
 
 /*========================================
     Subscribe & newsletter
