@@ -15,6 +15,58 @@ body{
     font-family: "Eczar-SemiBold", sans-serif;
     padding:30px;
 }
+
+/*===========================
+    service-section
+============================*/
+.service-section{
+    display: block;
+    overflow: hidden;
+}
+
+.our-services{
+    text-align: center;
+}
+
+.service-img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+.service-title{
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 74px;
+    font-weight: 500;
+    position: relative;
+    max-width: 549px;
+}
+
+.learn-more {
+    box-sizing: border-box;
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+}
+
+.learn-more a{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.learn-arrow{
+    transform-origin: 0 0;
+    transform: rotate(-25deg) scale(1, 1);
+    overflow: hidden;
+}
+
 /*========================================
     Dream Project
 ===========================================*/
@@ -42,95 +94,7 @@ body{
     margin-left: 300px;
 }
 
-.p {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 791px;
-    top: 216px;
-  }
-  .r3 {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 828px;
-    top: 223px;
-  }
-  .o2 {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 857px;
-    top: 224px;
-  }
-  .j {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 890px;
-    top: 227px;
-  }
-  .e3 {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 909px;
-    top: 222px;
-  }
-  .c2 {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 939px;
-    top: 220px;
-  }
-  .t {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 967px;
-    top: 216px;
-  }
-  .div {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: absolute;
-    left: 991px;
-    top: 212px;
-  }
-  .dream-project-description {
+.dream-project-description {
     color: #fefefe;
     text-align: left;
     font-family: "GentiumBasic-Regular", sans-serif;
@@ -139,26 +103,23 @@ body{
     font-weight: 400;
     opacity: 0.6000000238418579;
     margin-top: 50px;
-  }
-
-  .schedule{
+}
+.schedule{
     border: 1px solid #fefefe;
     border-radius: 50px;
     padding: 15px;
     max-width: 230px;
     margin-top: 50px;
     text-align: center;
-  }
-  .schedule-call{
+}
+
+.schedule-call{
     text-decoration: none;
     color: #fefefe;
     text-align: center;
-  }
+}
 
-  .map-arrow{
-    /* width: 18.49px;
-    height: 18.49px; */
-    /* position: relative; */
+.map-arrow{
     transform-origin: 0 0;
     transform: rotate(30deg) scale(1, 1);
     overflow: hidden;
