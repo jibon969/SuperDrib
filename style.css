@@ -17,6 +17,40 @@ body{
 }
 
 /*========================================
+    innovate Section
+===========================================*/
+
+.innovate-section {
+    display: block;
+    overflow: hidden;
+}
+  
+.innovate-img{
+    text-align: center;
+    position: relative;
+}
+
+.innovate-heading {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.innovate-text{
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-Medium", sans-serif;
+    font-size: 72px;
+    line-height: 74px;
+    font-weight: 500;
+    text-transform: uppercase;
+    left: 0px;
+    top: 6.31px;
+}
+
+/*========================================
     why-choose-us
 ===========================================*/
 
