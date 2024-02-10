@@ -16,6 +16,199 @@ body{
     padding:30px;
 }
 
+/*========================
+    Find location
+=========================*/
+.find-location {
+    overflow: hidden;
+    display: block;
+}
+
+.find-our-locations {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 4vw;
+    line-height: 1.5; 
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 8vw; 
+}
+
+.additional-line {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 2px 0 0 0;
+    width: 10%; 
+    height: 0px;
+    position: relative;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.icon-box-address {
+    background: #242424;
+    box-sizing: border-box;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+    position: relative;
+}
+
+.mdi-weather-night {
+    font-size: 30px;
+}
+
+.temperature {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.time {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+.address-info{
+    overflow: hidden;
+    display: block
+}
+
+.united-kingdom {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+
+.headquarter {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+}
+
+.address {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+}
+
+.address_details{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    position: relative;
+    width: 166px;
+}
+
+.contact-info{
+    overflow: hidden;
+    display: block;
+    margin-top: 50px;
+}
+
+.contact{
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;  
+}
+
+.phone{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative; 
+}
+
+.contact-gmail {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+}
+
+
+.location-info{
+    overflow: hidden;
+    display: block;
+    margin-top: 50px;
+}
+
+.location {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+}
+
+.see-map {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+}
+.map-arrow{
+    transform-origin: 0 0;
+    transform: rotate(-30deg) scale(1, 1);
+    overflow: hidden;
+}
+
+.line-106 {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 1px 0 0 0;
+    opacity: 0.30000001192092896;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
 /*================================================
     get_connected_section 
 ================================================*/
@@ -66,17 +259,42 @@ body{
 
   /* Responsive Styling */
   @media only screen and (max-width: 768px) {
+    .find-our-locations {
+        color: #ffffff;
+        text-align: left;
+        font-family: "Eczar-SemiBold", sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        position: relative;
+    }
+    
+    .additional-line {
+        border-style: solid;
+        border-color: #f3f3f3;
+        border-width: 2px 0 0 0;
+        width: 100px; 
+        height: 0px;
+        position: relative;
+        display: inline-block;
+        margin-left: 2vw;
+    }
+
     .social-icon {
       max-width: 80px;
       max-height: 80px;
       margin-left: 15px;
     }
+
+
   }
   
   @media only screen and (max-width: 480px) {
     .get-connected {
       font-size: 36px;
       line-height: 60px;
+    }
+    .icon-box-address {
+        text-align: center;
     }
     .social-icon {
       max-width: 100px;
@@ -101,7 +319,7 @@ body{
     line-height: 68px; 
     word-wrap: break-word;
     text-align: center;
-    /* margin-bottom: 5%;  */
+    margin-bottom: 5%; 
 }
 
 .copyright-line{
