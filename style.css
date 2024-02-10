@@ -16,351 +16,402 @@ body{
     padding:30px;
 }
 
+/*==============================
+		Contact us Section
+===============================*/
 
 
-
-/*===========================
-    1. creative agency
-=============================*/
-
-.client-say-section{
-    margin-top: 20px;
-}
-
-.creative-design {
+.let-s-work-together *{
     box-sizing: border-box;
-    color: #eaeaea;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: relative;
 }
 
-.for-startups {
+.let-s-work-together {
     color: #ffffff;
     text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
+    font-family: "Eczar-SemiBold", sans-serif;
     font-size: 64px;
     line-height: 84px;
-    font-weight: 500;
-}
-
-.custom-design {
-    margin-top: 50px;
-    box-sizing: border-box;
-    color: #fefefe;
-    text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: 400;
-    opacity: 0.6000000238418579;
+    font-weight: 600;
     position: relative;
-    width: 489px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
-.clients-say{
-    box-sizing: border-box;
-    background: #020202;
-    border: 1px solid #f3f3f3;
-    border-radius: 80px;
-    border-color: #f3f3f3;
-    color: #F3F3F3;
-    border-width: 1px;
-    opacity: 0.397;
-    padding: 10px;
-    width: 300px;
+.work-additional-line {
+  border-style: solid;
+  border-color: #f3f3f3;
+  border-width: 2px 0 0 0;
+  width: 100px;
+  height: 0px;
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
 }
 
-.what-clients-say{
-    color: #f3f3f3;
+/* .super-drib {
+    color: #ffffff;
     text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    transform: rotate(-20deg) scale(1, 1);
+    font-size: 250px;
+    font-weight: 600;
+    opacity: 0.11999999731779099;
+    transform-origin: 0 0;
+    position: relative;
+} */
+
+.super-drib {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    transform: rotate(-20deg) scale(1, 1);
+    font-size: 250px;
+    font-weight: 600;
+    opacity: 0.12; /* Adjusted opacity */
+    transform-origin: 0 0;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .super-drib {
+        font-size: 150px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .super-drib {
+        font-size: 100px; /* Further adjust font size for even smaller screens */
+    }
+}
+
+
+.btn-style input {
+    border: none;
+    background: transparent;
+    color: #f3f3f3; 
+    font-family: "GentiumBasic-Regular", sans-serif; 
+    font-size: 16px;
+    line-height: 124.22%;
+    font-weight: 400;
+    opacity: 0.6;
+  }
+  .btn-style select {
+    border: none;
+    background: transparent;
+    color: #f3f3f3;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 124.22%;
+    font-weight: 400;
+    opacity: 0.6;
+    appearance: none;
+}
+
+.btn-style textarea {
+    border: none;
+    background: transparent;
+    color: #f3f3f3;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 124.22%;
+    font-weight: 400;
+    opacity: 0.6;
+    resize: none; 
+}
+
+.btn-line {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 1px 0 0 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+
+.send-an-inquiry-btn {
+    color: #f3f3f3;
+    text-align: center;
     font-family: "GentiumBasic-Regular", sans-serif;
     font-size: 16px;
     line-height: 34px;
     font-weight: 400;
     position: relative;
-    
+    border-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 5px;
+    min-width: 30%;
 }
 
-.creative-image{
-    text-align: center;
-    margin-top: 20%;
+.send-an-inquiry-btn:hover{
+    color: #f3f3f3;
 }
 
-.agency-image {
-    box-sizing: border-box;
-    width: 411px;
-    height: 305.74px;
-    text-align: center;
-}
+
 
 /*===========================
-    2. service-section
+        Drop Email Section
 ============================*/
-.service-section{
-    display: block;
+.drop-email-section{
     overflow: hidden;
+    display: block;
 }
-
-.our-services{
-    text-align: center;
-}
-
-.service-middle-line {
-    border-style: solid;
-    border-color:#f3f3f3;
-    border-width: 1px 0 0 0;
-    opacity: 0.20000000298023224;
-    transform-origin: 0 0;
-    transform: rotate(90deg) scale(1, 1);
-}
-
-.service-img{
-    max-width: 50px;
-    max-height: 50px;
-    margin-bottom: 10px;
-}
-.service-title{
-    box-sizing: border-box;
-    color: #ffffff;
+.drop-email {
+    color: #f3f3f3;
     text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
-    position: relative;
-    max-width: 549px;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 600;
+    /* position: relative; */
 }
 
-.learn-more {
-    box-sizing: border-box;
+
+.super-gmail-com{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    /* position: relative; */
+}
+
+.rectangle-box {
+    border-radius: 97px;
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 1px;
+    width: 141px;
+    height: 54px;
+    /* position: relative; */
+}
+.email-us {
     color: #f3f3f3;
     text-align: center;
     font-family: "GentiumBasic-Regular", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400; 
+    position: relative;
+    margin: 10px;
+}
+.email-link{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+/*========================
+    Find location
+=========================*/
+.find-location {
+    overflow: hidden;
+    display: block;
+}
+
+.find-our-locations {
+    color: #ffffff;
+    text-align: left; /* Changed to center for responsiveness */
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 4vw; /* Changed font size to be responsive */
+    line-height: 1.5; /* Changed line height to be responsive */
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 8vw; /* Changed margin to be responsive */
+}
+
+.additional-line {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 2px 0 0 0;
+    width: 10%; /* Changed width to be responsive */
+    max-width: 100px; /* Added max-width for responsiveness */
+    height: 0px;
+    position: relative;
+    display: inline-block;
+    margin-left: 2vw; /* Changed margin to be responsive */
+}
+
+.rectangle-249 {
+    box-sizing: border-box;
+    background: #242424;
+    width: 151px;
+    height: 151px;
+    position: relative;
+}
+
+.mdi-weather-night {
+    /* width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible; */
+    font-size: 30px;
+}
+
+.temperature {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.time {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+
+.address-info{
+    overflow: hidden;
+    display: block
+}
+
+.united-kingdom {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+
+.headquarter {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 400;
     opacity: 0.6000000238418579;
-}
-
-.learn-more a{
-    text-decoration: none;
-    color: #f3f3f3;
-}
-
-.learn-arrow{
-    transform-origin: 0 0;
-    transform: rotate(-25deg) scale(1, 1);
-    overflow: hidden;
-}
-
-/*========================================
-    Dream Project
-===========================================*/
-.dream-project{
-    display: block;
-    overflow: hidden;
-}
-.dream-img{
-    text-align: center;
-    margin-top: 20%;
-}
-.let-us-help{
-    box-sizing: border-box;
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 500;
     position: relative;
-    max-width: 549px;
 }
 
-.project-wrap{
-    margin-left: 300px;
-}
-
-.dream-project-description {
-    color: #fefefe;
+.address {
+    color: #f5f5f5;
     text-align: left;
     font-family: "GentiumBasic-Regular", sans-serif;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 16px;
+    line-height: 30px;
     font-weight: 400;
     opacity: 0.6000000238418579;
-    margin-top: 50px;
-}
-.schedule{
-    border: 1px solid #fefefe;
-    border-radius: 50px;
-    padding: 15px;
-    max-width: 230px;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.schedule-call{
-    text-decoration: none;
-    color: #fefefe;
-    text-align: center;
-}
-
-.map-arrow{
-    transform-origin: 0 0;
-    transform: rotate(30deg) scale(1, 1);
-    overflow: hidden;
-}
-
-/*========================================
-    innovate Section
-===========================================*/
-
-.innovate-section {
-    display: block;
-    overflow: hidden;
-}
-  
-.innovate-img{
-    text-align: center;
     position: relative;
 }
 
-.innovate-heading {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    width: 100%;
-}
-
-.innovate-text{
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 72px;
-    line-height: 74px;
-    font-weight: 500;
-    text-transform: uppercase;
-    left: 0px;
-    top: 6.31px;
-}
-
-/*========================================
-    why-choose-us
-===========================================*/
-
-.why-choose-us {
-    overflow: hidden;
-    display: block;
-  }
-  
-  .why-title {
-    color: #f3f3f3;
-    font-size: 34px;
-    font-family: "Eczar-Medium", sans-serif;
-    font-weight: 700;
-    position: relative;
-    margin-bottom: 50px;
-    margin-top: 230px;
-  }
-  
-  .we-helped {
-    color: #fefefe;
-    opacity: 0.6;
-    width: 100%;
-    position: relative;
-    margin-left: 150px;
-  }
-  
-  .we-are-dedicated {
-    color: #fefefe;
-    width: 100%;
-    margin-top: 150px;
-    margin-left: -150px;
-  }
-  
-
-/*========================================
-    Subscribe & newsletter
-===========================================*/
-
-.subscribe-section{
-    overflow: hidden;
-    display: block;
-}
-
-.subscribe-component {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Eczar-Medium", sans-serif;
-    font-size: 72px;
-    line-height: 68px;
-    margin-bottom: 30px;
-}
-.subscribe-component a{
-    text-decoration: none;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-.subscribe-middle-line {
-    box-sizing: border-box;
-    border-style: solid;
-    border-color:#f3f3f3;
-    border-width: 1px 0 0 0;
-    opacity: 0.20000000298023224;
-    width: 300px;
-    height: 0px;
-    transform-origin: 0 0;
-    transform: rotate(90deg) scale(1, 1);
-    margin-left: 200px;
-}
-
-.newsletter {
-    box-sizing: border-box;
-    color: #f3f3f3;
+.address_details{
+    color: #f5f5f5;
     text-align: left;
     font-family: "GentiumBasic-Regular", sans-serif;
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 26px;
     font-weight: 400;
-    margin-bottom: 10px;
+    position: relative;
+    width: 166px;
 }
 
-.newsletter-email{
-    box-sizing: border-box;
-    background: #020202;
-    border-radius: 80px;
-    border-color: #f3f3f3;
-    color: #F3F3F3;
-    border-width: 1px;
-    opacity: 0.397;
-    width: 403px;
-    height: 55px;
+.contact-info{
+    overflow: hidden;
+    display: block;
+    margin-top: 50px;
 }
 
-.newsletter-submit-btn{
+.contact{
     box-sizing: border-box;
-    background: #020202;
-    border-radius: 80px;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;  
+}
+
+.phone{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative; 
+}
+
+.contact-gmail {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+}
+
+
+
+.location-info{
+    overflow: hidden;
+    display: block;
+    margin-top: 50px;
+}
+
+.location {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+}
+
+.see-map {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+}
+.map-arrow{
+    /* width: 18.49px;
+    height: 18.49px; */
+    /* position: relative; */
+    transform-origin: 0 0;
+    transform: rotate(-30deg) scale(1, 1);
+    overflow: hidden;
+}
+
+.line-106 {
+    box-sizing: border-box;
+    border-style: solid;
     border-color: #f3f3f3;
-    border-width: 1px;
-    opacity: 0.397;
-    color: #F3F3F3;
+    border-width: 1px 0 0 0;
+    opacity: 0.30000001192092896;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 /*================================================
-    Footer 
+    support HELLO@SUPERDRIB.COM
 ================================================*/
 
-.main-footer{
+.support-section{
     overflow: hidden;
+    display: block;
 }
-.support-email{
+
+.support{
     color: white; 
     font-size: 48px; 
     font-family: Eczar; 
@@ -370,6 +421,13 @@ body{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+/*================================================
+    Footer 
+================================================*/
+#main-footer{
+    overflow: hidden;
 }
 .copyright-line{
     opacity: 0.20; 
