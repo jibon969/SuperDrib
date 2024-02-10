@@ -72,86 +72,38 @@
 }
 
 
-
-/* Responsive Styling */
-@media only screen and (max-width: 768px) {
-    .find-our-locations {
-        font-size: 6vw; /* Adjust font size for smaller screens */
-        margin-bottom: 10vw; /* Adjust margin for smaller screens */
-    }
-
-    .additional-line {
-        margin-left: 2vw; /* Adjust margin for smaller screens */
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .find-our-locations {
-        font-size: 8vw; /* Adjust font size for even smaller screens */
-        margin-bottom: 12vw; /* Adjust margin for even smaller screens */
-    }
-
-    .additional-line {
-        margin-left: 2vw; /* Adjust margin for even smaller screens */
-    }
-}
-
-
-/*================================================
-   Get connected
-================================================*/
-
-.get_connected_section {
-    overflow: hidden;
-    display: block;
-    display: flex;
-  }
-  
-  .get-connected {
-    box-sizing: border-box;
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Eczar-SemiBold', sans-serif;
-    font-size: 48px;
-    line-height: 84px;
-    font-weight: 600;
-    position: relative;
-    margin-bottom: 8dvh;
-  }
-  
-  .social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .social-icon {
-    box-sizing: border-box;
-    background: #f3f3f3;
-    border-radius: 50%;
-    width: 72px;
-    height: 72px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .image {
-    box-sizing: border-box;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    overflow: visible;
-  }
-  
   /* Responsive Styling */
   @media only screen and (max-width: 768px) {
+    .find-our-locations {
+        color: #ffffff;
+        text-align: left;
+        font-family: "Eczar-SemiBold", sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        position: relative;
+    }
+    .drop-email{
+      color: #f3f3f3;
+      text-align: left;
+      font-family: "Eczar-SemiBold", sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    
+    .additional-line {
+        border-style: solid;
+        border-color: #f3f3f3;
+        border-width: 2px 0 0 0;
+        width: 100px; 
+        height: 0px;
+        position: relative;
+        display: inline-block;
+        margin-left: 2vw;
+    }
+
     .social-icon {
-      width: 50px;
-      height: 50px;
+      max-width: 80px;
+      max-height: 80px;
       margin-left: 15px;
     }
   }
@@ -161,10 +113,25 @@
       font-size: 36px;
       line-height: 60px;
     }
-  
+    .icon-box-address {
+        text-align: center;
+    }
     .social-icon {
-      width: 40px;
-      height: 40px;
-      margin-left: 10px;
+      max-width: 100px;
+      max-height: 50px;
+      /* margin-left: 10px; */
     }
   }
+
+  
+@media only screen and (max-width: 768px) {
+  .super-drib {
+      font-size: 50px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .super-drib {
+      font-size: 50px; /* Further adjust font size for even smaller screens */
+  }
+}
