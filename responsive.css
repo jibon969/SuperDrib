@@ -1,0 +1,170 @@
+/*-----------------------------------------------
+                 Media Query
+------------------------------------------------*/
+@media (min-width: 280px) and (max-width: 320px) {
+    
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+
+/*-----------------------------------------------
+                 Max-width
+------------------------------------------------*/
+
+@media (max-width: 375px) {
+
+}
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+   
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+}
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+
+}
+
+/*Except*/
+@media all and (max-width: 768px) {
+
+}
+
+
+
+/* Responsive Styling */
+@media only screen and (max-width: 768px) {
+    .find-our-locations {
+        font-size: 6vw; /* Adjust font size for smaller screens */
+        margin-bottom: 10vw; /* Adjust margin for smaller screens */
+    }
+
+    .additional-line {
+        margin-left: 2vw; /* Adjust margin for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .find-our-locations {
+        font-size: 8vw; /* Adjust font size for even smaller screens */
+        margin-bottom: 12vw; /* Adjust margin for even smaller screens */
+    }
+
+    .additional-line {
+        margin-left: 2vw; /* Adjust margin for even smaller screens */
+    }
+}
+
+
+/*================================================
+   Get connected
+================================================*/
+
+.get_connected_section {
+    overflow: hidden;
+    display: block;
+    display: flex;
+  }
+  
+  .get-connected {
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Eczar-SemiBold', sans-serif;
+    font-size: 48px;
+    line-height: 84px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 8dvh;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon {
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    overflow: visible;
+  }
+  
+  /* Responsive Styling */
+  @media only screen and (max-width: 768px) {
+    .social-icon {
+      width: 50px;
+      height: 50px;
+      margin-left: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .get-connected {
+      font-size: 36px;
+      line-height: 60px;
+    }
+  
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+    }
+  }
