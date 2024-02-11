@@ -4,26 +4,64 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: black;
     color: #ffffff;
-    font-family: "Eczar-SemiBold", sans-serif;
-}
-
-.container{
-    background-color: #020202;
-    color: #ffffff;
-    font-family: "Eczar-SemiBold", sans-serif;
-    padding:30px;
 }
 
 
-/*================================================
-    About => get-in-touch-section 
-================================================*/
+
+.about-super-drib,
+.about-super-drib * {
+  box-sizing: border-box;
+}
+.about-super-drib {
+    margin-top: 100px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+}
+.custom-design{
+    color: #fefefe;
+    text-align: center;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+    max-width: 913px;
+    margin: auto;
+}
+
+
 .get-in-touch-section{
     overflow: hidden;
     display: block;
 }
+
+.how-we-work,
+.how-we-work * {
+  box-sizing: border-box;
+}
+.how-we-work {
+  color: var(--white, #f3f3f3);
+  text-align: left;
+  font-family: "Eczar-SemiBold", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  position: relative;
+}
+
+.how-we-work-title {
+    color:  #f3f3f3;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    position: relative;
+  }
 
 .get-in-touch-title {
     box-sizing: border-box;
@@ -35,19 +73,18 @@ body{
     position: relative;
 }
 
- .left-line {
+.left-line {
     box-sizing: border-box; 
     border-style: solid;
     border-color: #f3f3f3;
     border-width: 3px 0 0 0;
-    max-width: 102px;
-    max-height: 0px;
+    width: 102px;
+    height: 0px;
     position: relative;
     transform-origin: 0 0;
     transform: rotate(90deg) scale(1, 1);
     margin-left: -15px;
 }
-
 .address{
     box-sizing: border-box;
     color: #f5f5f5;
@@ -70,7 +107,6 @@ body{
     position: relative;
 }
 
-
 .phone_number {
     box-sizing: border-box;
     color: #f5f5f5;
@@ -86,8 +122,8 @@ body{
     box-sizing: border-box;
     border-radius: 83px;
     opacity: 0.4000000059604645;
-    max-width: 200px;
-    max-height: 200px;
+    width: 179px;
+    height: 172px;
     position: relative;
     transform-origin: 0 0;
     transform: rotate(-180deg) scale(1, 1);
@@ -96,8 +132,248 @@ body{
     margin-left: 600px;
 }
 
+.about-section{
+    overflow: hidden;
+    margin-bottom: 200px;
+}
 
-.btn-style input {
+/*=============================
+    Team Section
+=================================*/
+.team-section{
+    overflow: hidden;
+    display: block;
+}
+.team_title{
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Eczar-SemiBold", sans-serif; 
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 600;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0.046deg) scale(1, 1);
+    /* width: 832.29px; */
+}
+
+.employee-card,
+.employee-card * {
+    box-sizing: border-box;
+}
+
+.employee-card {
+    width: 331px;
+    height: 151px;
+    position: relative;
+}
+
+.card-wrapper {
+    position: absolute;
+    inset: 0;
+}
+
+.background-box {
+    background: #f3f3f3;
+    border-radius: 30px;
+    width: 331px;
+    height: 151px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.content-group {
+    width: 235px;
+    height: 55px;
+    position: static;
+}
+
+.text-group {
+    width: 149px;
+    height: 55px;
+    position: static;
+}
+
+.employee-name {
+    color: #020202;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - 117.5px);
+    top: calc(50% - 27.5px);
+}
+
+.employee-role {
+    color: #020202;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: absolute;
+    left: calc(50% - 117.5px);
+    top: calc(50% - -8.5px);
+}
+
+.icon-group {
+    width: 54px;
+    height: 54px;
+    position: static;
+}
+
+.profile-picture {
+    background: #d9d9d9;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left: 229px;
+    top: 48px;
+}
+
+.profile-icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 244px;
+    top: 63px;
+    overflow: visible;
+}
+
+/*==============================
+        how-we-work
+===============================*/
+.how-we-work{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.about-image{
+    width: 579px;
+    height: 507px;
+    background: rgba(6, 5, 7, 0.1);
+    border-radius: 90px;
+    position: relative;
+}
+.how-we-work-title{
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+._01,
+._02,
+._03 {
+    
+    box-sizing: border-box;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 128px;
+    font-weight: 700;
+    opacity: 0.5;
+    position: relative;
+}
+
+.line-89 {
+    box-sizing: border-box;
+    opacity: 0.2;
+    width: 334px;
+    height: 1px; /* Adjust the height as needed */
+    background-color: #333132; /* Set the color of the line */
+    margin: 0 20px; /* Adjust the margin as needed */
+}
+
+.ellipse-115 {
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid #333132; /* Set the color of the border */
+    width: 12px;
+    height: 12px;
+    position: relative;
+    margin-left: 20px; /* Adjust the margin as needed */
+} 
+
+.feature-box{
+    box-sizing: border-box;
+}
+
+.feature-img{
+    width: 62px;
+    height: 62px; 
+}
+
+.feature-box-title {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.feature-box-description{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    opacity: 0.4000000059604645;
+    position: relative;
+    width: 296px;
+}
+
+/*==============================
+		Contact us Section
+===============================*/
+
+.let-s-work-together {
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 600;
+    position: relative;
+}
+
+.line-105 {
+    border-style: solid;
+    border-color: var(--white, #f3f3f3);
+    border-width: 2px 0 0 0;
+    width: 64px;
+    height: 0px;
+    position: relative;
+}
+
+.super-drib {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 250px;
+    font-weight: 600;
+    opacity: 0.11999999731779099;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-20deg) scale(1, 1);
+}
+
+  .btn-style input {
     border: none;
     background: transparent;
     color: #f3f3f3; 
@@ -106,10 +382,8 @@ body{
     line-height: 124.22%;
     font-weight: 400;
     opacity: 0.6;
-}
-
-
-.btn-style select {
+  }
+  .btn-style select {
     border: none;
     background: transparent;
     color: #f3f3f3;
@@ -153,14 +427,56 @@ body{
     position: relative;
     border-color: #f3f3f3;
     border-radius: 30px;
-    padding: 10px;
-    max-width: 100%;
+    padding: 5px;
+    width: 100%;
 }
-
 
 .send-an-inquiry-btn:hover{
     color: #f3f3f3;
-} 
+}
+
+/*================================================
+    .support 
+================================================*/
+
+.support-section{
+    overflow: hidden;
+    display: block;
+}
+
+.support{
+    color: white; 
+    font-size: 48px; 
+    font-family: Eczar; 
+    font-weight: 500; 
+    line-height: 68px; 
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*================================================
+    Footer 
+================================================*/
+#main-footer{
+    overflow: hidden;
+}
+.copyright-line{
+    opacity: 0.20; 
+    border: 1px #F3F3F3 solid;
+    margin-bottom: 20px;
+}
+.copyright{
+    opacity: 0.40; 
+    color: #F3F3F3; 
+    font-size: 16px;
+    font-family: Gentium Basic; 
+    font-weight: 400; 
+    line-height: 19.88px; 
+    word-wrap: break-word;
+    text-align: center;
+}
 
 
 /*================================================
@@ -185,7 +501,6 @@ body{
 .copyright-line{
     opacity: 0.20; 
     border: 1px #F3F3F3 solid;
-    /* margin-bottom: 20px; */
 }
 .copyright{
     opacity: 0.40; 
