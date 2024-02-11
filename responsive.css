@@ -89,7 +89,6 @@
       font-size: 30px;
       font-weight: 600;
     }
-    
     .additional-line {
         border-style: solid;
         border-color: #f3f3f3;
@@ -100,11 +99,13 @@
         display: inline-block;
         margin-left: 2vw;
     }
-
     .social-icon {
       max-width: 80px;
       max-height: 80px;
       margin-left: 15px;
+    }
+    .contact-form-img{
+      display: none;
     }
   }
   
@@ -128,10 +129,16 @@
   .super-drib {
       font-size: 50px; /* Adjust font size for smaller screens */
   }
+  .contact-form-img{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .super-drib {
-      font-size: 50px; /* Further adjust font size for even smaller screens */
+      font-size: 50px; 
+  }
+  .contact-form-img{
+    display: none;
   }
 }
