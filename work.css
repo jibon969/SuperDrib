@@ -1,0 +1,58 @@
+/* .super-drib,
+.super-drib * {
+  box-sizing: border-box;
+}
+.super-drib {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Eczar-SemiBold", sans-serif;
+  font-size: 300px;
+  font-weight: 600;
+  opacity: 0.11999999731779099;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-19.576deg) scale(1, 1);
+} */
+
+.sample-projects,
+.sample-projects * {
+  box-sizing: border-box;
+}
+.sample-projects {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Eczar-SemiBold", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  position: relative;
+}
+
+.work-img{
+  text-align: center;
+}
+.work-img-style{
+  margin: auto;
+}
+.work-description{
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.a-glimpse-of-our-works,
+.a-glimpse-of-our-works * {
+  box-sizing: border-box;
+}
+.a-glimpse-of-our-works {
+  color: #fefefe;
+  text-align: center;
+  font-family: "GentiumBasic-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  opacity: 0.6000000238418579;
+  position: relative;
+}
+
+
+
+
