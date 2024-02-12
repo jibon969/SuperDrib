@@ -401,19 +401,19 @@ body{
     box-sizing: border-box;
     background: #f3f3f3;
     border-radius: 50%;
-    min-width: 70px;
-    min-height: 70px;
+    min-width: 65px;
+    min-height: 65px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 7px;
+    margin: 5px;
 }
 
 .social-image {
     box-sizing: border-box;
-    max-width: 36px;
-    max-height: 36px;
+    max-width: 30px;
+    max-height: 30px;
     position: relative;
     overflow: visible;
 }

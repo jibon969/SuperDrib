@@ -160,13 +160,13 @@
     }
 
     .social-icon {
-        min-width: 30px;
-        min-height: 30px;
+        min-width: 10px;
+        min-height: 10px;
     }
 
     .social-image {
-        max-width: 20px;
-        max-height: 20px;
+        max-width: 10px;
+        max-height: 10px;
     }
     /*  Contact ==============> */
     .support{
@@ -212,13 +212,13 @@
     }
 
     .social-icon {
-        min-width: 20px;
-        min-height: 20px;
+        min-width: 10px;
+        min-height: 10px;
     }
 
     .social-image {
-        max-width: 15px;
-        max-height: 15px;
+        max-width: 10px;
+        max-height: 10px;
     }
     /*  Contact ==============> */
     .support{
@@ -273,14 +273,14 @@
     }
 
     .social-icon {
-        min-width: 50px;
-        min-height: 50px;
-        margin: 7px;
+        min-width: 40px;
+        min-height: 40px;
+        margin: 5px;
     }
 
     .social-image {
-        max-width: 15px;
-        max-height: 15px;
+        max-width: 20px;
+        max-height: 20px;
     }
     /*  Contact ========================== */
     .support{
