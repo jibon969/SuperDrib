@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Eczar-SemiBold", sans-serif;
+}
+
+.container{
+    background-color: #020202;
+    color: #ffffff;
+    font-family: "Eczar-SemiBold", sans-serif;
+    padding:30px;
+}
+
+
+/*==============================
+		Contact us Section
+===============================*/
+
+
+.contact-section{
+    box-sizing: border-box;
+}
+
+.lets-work-line {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 70px;
+    line-height: 1.5; 
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 50px; 
+}
+
+.work-additional-line {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 2px 0 0 0;
+    width: 10%; 
+    height: 0px;
+    position: relative;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.super-drib-logo {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    transform: rotate(-20deg) scale(1, 1);
+    font-size: 200px;
+    font-weight: 600;
+    opacity: 0.12; 
+    transform-origin: 0 0;
+    position: relative;
+}
+
+.btn-style input {
+    border: none;
+    background: transparent;
+    color: #f3f3f3; 
+    font-family: "GentiumBasic-Regular", sans-serif; 
+    font-size: 16px;
+    line-height: 124.22%;
+    font-weight: 400;
+    opacity: 0.6;
+  }
+  .btn-style select {
+    border: none;
+    background: transparent;
+    color: #f3f3f3;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 124.22%;
+    font-weight: 400;
+    opacity: 0.6;
+    appearance: none;
+}
+
+.btn-style textarea {
+    border: none;
+    background: transparent;
+    color: #f3f3f3;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 124.22%;
+    font-weight: 400;
+    opacity: 0.6;
+    resize: none; 
+}
+
+.btn-line {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 1px 0 0 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+
+.send-an-inquiry-btn {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    position: relative;
+    border-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 8px;
+    min-width: 30%;
+}
+
+.send-an-inquiry-btn:hover{
+    color: #f3f3f3;
+}
+
+/*===========================
+        Drop Email Section
+============================*/
+.drop-email-section{
+    overflow: hidden;
+    display: block;
+}
+.drop-email {
+    color: #f3f3f3;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 600;
+}
+
+.super-gmail-com{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    /* position: relative; */
+}
+
+.rectangle-box {
+    border-radius: 97px;
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 1px;
+    width: 141px;
+    height: 54px;
+    /* position: relative; */
+}
+.email-us {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400; 
+    position: relative;
+    margin: 10px;
+}
+.email-link{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+/*================================================
+  Contact ---------> Find location
+================================================*/
+
+.find-location {
+    overflow: hidden;
+    display: block;
+}
+
+.find-our-locations {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Eczar-SemiBold", sans-serif;
+    font-size: 70px;
+    line-height: 1.5; 
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 50px; 
+}
+
+.additional-line {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 2px 0 0 0;
+    width: 10%; 
+    height: 0px;
+    position: relative;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.icon-box-address {
+    background: #242424;
+    box-sizing: border-box;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.mdi-weather-night {
+    font-size: 30px;
+}
+
+.temperature {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.time {
+    color: #f3f3f3;
+    text-align: center;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+.address-info{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.united-kingdom {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+
+.headquarter {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+}
+
+.address {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+}
+
+.address_details{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    position: relative;
+    width: 166px;
+}
+
+.contact-info{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.contact{
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;  
+}
+
+.phone{
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative; 
+}
+
+.contact-gmail {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+}
+
+
+.location-info{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.location {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    position: relative;
+}
+
+.see-map {
+    color: #f5f5f5;
+    text-align: left;
+    font-family: "GentiumBasic-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+}
+.map-arrow{
+    transform-origin: 0 0;
+    transform: rotate(-30deg) scale(1, 1);
+    overflow: hidden;
+}
+
+.line-106 {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 1px 0 0 0;
+    opacity: 0.30000001192092896;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+/*================================================
+  Contact ----> get_connected_section 
+================================================*/
+.get-connected-section {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-connected {
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Eczar-SemiBold', sans-serif;
+    font-size: 48px;
+    line-height: 84px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border-radius: 50%;
+    min-width: 72px;
+    min-height: 72px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.social-image {
+    box-sizing: border-box;
+    max-width: 36px;
+    max-height: 36px;
+    position: relative;
+    overflow: visible;
+}
+
+
+/*================================================
+    Footer 
+================================================*/
+
+#main-footer{
+    overflow: hidden;
+}
+
+.support{
+    color: white; 
+    font-size: 48px; 
+    font-family: Eczar; 
+    font-weight: 500; 
+    line-height: 68px; 
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 5%; 
+}
+
+.copyright-line{
+    opacity: 0.20; 
+    border: 1px #F3F3F3 solid;
+    margin-bottom: 20px;
+}
+.copyright{
+    opacity: 0.40; 
+    color: #F3F3F3; 
+    font-size: 16px;
+    font-family: Gentium Basic; 
+    font-weight: 400; 
+    line-height: 19.88px; 
+    word-wrap: break-word;
+    text-align: center;
+}
