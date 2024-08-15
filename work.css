@@ -1,4 +1,4 @@
-/* .super-drib,
+ /*.super-drib,
 .super-drib * {
   box-sizing: border-box;
 }
@@ -14,6 +14,22 @@
   transform: rotate(-19.576deg) scale(1, 1);
 } */
 
+.row{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.col-md-6.col-lg-6.col-xl-6.mb-5 {
+  display: flex;
+  align-items: center;
+}
+
+.hexagon, .work-description {
+  display: inline-block;
+}
+
+
 .sample-projects,
 .sample-projects * {
   box-sizing: border-box;
@@ -21,22 +37,139 @@
 .sample-projects {
   color: #ffffff;
   text-align: center;
-  font-family: "Eczar-SemiBold", sans-serif;
+  font-family: "Eczar";
   font-size: 64px;
   font-weight: 600;
   position: relative;
 }
 
+.bar {
+  background: #9a9a9a;
+  margin: 5px 0;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+.bar1 {
+  height: 2px;
+  width: 27px;
+}
+
+.bar2 {
+  height: 2px;
+  width: 23px;
+}
+
+.bar3 {
+  height: 2px;
+  width:21px;
+}
+
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
 .work-img{
   text-align: center;
 }
+
+.work-image-left {
+  display: flex;
+  flex-direction: row; /* Description first, image second */
+  align-items: center; /* Aligns items vertically */
+  justify-content: flex-start; /* Aligns items horizontally */
+}
+
+.work-image-right {
+  display: flex;
+  flex-direction: row-reverse; /* Image first, description second */
+  align-items: center; /* Aligns items vertically */
+  justify-content: flex-start; /* Aligns items horizontally */
+}
+
 .work-img-style{
-  margin: auto;
+  display:block;
+  margin: 0 auto;
+  margin-top: 75px;
+  height: 250px;
+  width: 250px;
+  
 }
+
 .work-description{
+  font-size: 15px;
   box-sizing: border-box;
-  margin-top: 150px;
+  margin-top: 75px;
+  margin-left: 100px;
+  flex: 1; /* Text block takes remaining space */
+  text-align: left;
 }
+
+.work-description-left {
+  text-align: left; /* Text aligns to the right */
+  margin-right: 0; /* Adjust margin for left-aligned description */
+  margin-left: 20px; /* Space between image and description */
+}
+
+/* Additional styling for right-aligned descriptions */
+.work-description-right {
+  text-align: left; /* Text aligns to the left */
+  margin-left: 0; /* Adjust margin for right-aligned description */
+  margin-right: 20px; /* Space between image and description */
+}
+
+.hexagon{
+  flex: 0 0 auto; /* Image block won't shrink */
+  margin-right: 20px; /* Adjust space between image and text */
+  display:flex;
+  align-items: left;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.hexagonleft{
+  width: 400px;
+  height: 400px;
+  background-color: #272727;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translateX(20px);
+
+}
+
+.hexagonright{
+  width: 400px;
+  height: 400px;
+  background-color: #272727;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translateX(-20px);
+
+}
+
+
+
+.services {
+  margin-top: 10px; /* Adjust spacing if needed */
+}
+
+.super-drib {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Eczar";
+  font-size: 250px;
+  font-weight: 600;
+  opacity: 0.11999999731779099;
+  position: relative;
+  transform-origin: 0 0;
+  margin-top: 50px;
+  transform: rotate(-20deg) scale(1, 1);
+}
+
+
 
 .a-glimpse-of-our-works,
 .a-glimpse-of-our-works * {
@@ -45,7 +178,7 @@
 .a-glimpse-of-our-works {
   color: #fefefe;
   text-align: center;
-  font-family: "GentiumBasic-Regular", sans-serif;
+  font-family: "Eczar";
   font-size: 24px;
   line-height: 40px;
   font-weight: 400;
@@ -53,6 +186,83 @@
   position: relative;
 }
 
+.get-in-touch-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
 
+.get-in-touch-title {
+  box-sizing: border-box;
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Eczar";
+  font-size: 64px;
+  font-weight: 700;
+  position: relative;
+  width: 100%;
+}
 
+.contact-address, .contact-form {
+  flex: 1;
+}
 
+.contact-address {
+  /* Add border for separation */
+  border-right: 1px solid #4f4f4f;
+  padding-right: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-form-img {
+  box-sizing: border-box;
+  border-radius: 83px;
+  opacity: 0.4;
+  width: 179px;
+  height: 172px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+  margin-top: 20px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color:#000000;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-line {
+  border-style: solid;
+  border-color: #f3f3f3;
+  border-width: 1px 0 0 0;
+  opacity: 0.3;
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+
+.send-an-inquiry-btn {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.main-footer {
+  text-align: center;
+}

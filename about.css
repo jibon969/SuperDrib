@@ -6,39 +6,109 @@
 body{
     background-color: black;
     color: #ffffff;
+    font-family: "Eczar";
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col-md-4 {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: 33.3333%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.employee-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.employee-card-container {
+    display: flex; /* Make the container a flexbox */
+    overflow-x: scroll; /* Enable horizontal scroll */
+    white-space: nowrap; /* Prevent cards from wrapping onto new lines */
+    /* Optional styling for spacing or padding */
+  }
+
+
+.quote-box {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 100;
+    width: 250px; /* Adjust width as needed */
 }
 
 
+.quote {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change to your preferred hover color */
+}
 
 .about-super-drib,
 .about-super-drib * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 .about-super-drib {
     margin-top: 100px;
     color: #ffffff;
     text-align: center;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 64px;
     font-weight: 600;
 }
-.custom-design{
+.custom-designee{
     color: #fefefe;
     text-align: center;
-    font-family: "GentiumBasic-Regular", sans-serif;
-    font-size: 24px;
-    line-height: 40px;
-    font-weight: 400;
-    opacity: 0.6000000238418579;
+    font-family: "Eczar"; 
+    line-height: 33px;
+    font-weight: 35rem;
+    opacity: 0.6;
+    font-size: 20px;
     position: relative;
-    max-width: 913px;
+    max-width: 913px; 
     margin: auto;
 }
 
 
 .get-in-touch-section{
-    overflow: hidden;
-    display: block;
+  overflow: hidden;
+  display: block;
 }
 
 .how-we-work,
@@ -48,7 +118,7 @@ body{
 .how-we-work {
   color: var(--white, #f3f3f3);
   text-align: left;
-  font-family: "Eczar-SemiBold", sans-serif;
+  font-family: "Eczar";
   font-size: 64px;
   font-weight: 600;
   position: relative;
@@ -57,7 +127,7 @@ body{
 .how-we-work-title {
     color:  #f3f3f3;
     text-align: left;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 64px;
     font-weight: 600;
     position: relative;
@@ -67,7 +137,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: center;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 64px;
     font-weight: 700;
     position: relative;
@@ -89,7 +159,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 20px;
     font-weight: 400;
     opacity: 0.6000000238418579;
@@ -100,7 +170,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 20px;
     font-weight: 700;
     text-decoration: underline;
@@ -111,7 +181,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 20px;
     font-weight: 700;
     text-decoration: underline;
@@ -140,22 +210,47 @@ body{
 /*=============================
     Team Section
 =================================*/
-.team-section{
+.team-section {
     overflow: hidden;
     display: block;
+    background-color: #000; /* Assuming a black background as per image */
+    padding: 50px 0; /* Add some padding to the section */
 }
-.team_title{
+
+.team_title {
     box-sizing: border-box;
     color: #ffffff;
     text-align: center;
-    font-family: "Eczar-SemiBold", sans-serif; 
+    font-family: "Eczar";
     font-size: 48px;
     line-height: 68px;
     font-weight: 600;
     position: relative;
     transform-origin: 0 0;
     transform: rotate(0.046deg) scale(1, 1);
-    /* width: 832.29px; */
+    margin-bottom: 30px; /* Add some margin below the title */
+}
+
+
+.employee-cards-wrapper{
+    border: 1px solid #000000;
+    display:flex;
+    overflow-x: auto;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow cards to wrap to multiple lines */
+
+}
+
+.employee-cards-wrapper::-webkit-scrollbar{
+    width:0;
+    height: 0;
+}
+
+.employee-cards-wrapper .container{
+    min-width:110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
 }
 
 .employee-card,
@@ -164,84 +259,83 @@ body{
 }
 
 .employee-card {
-    width: 331px;
-    height: 151px;
-    position: relative;
+    width: 250px; /* Full width for responsive design */
+    max-width: 300px; /* Maximum width for the card *//* Set a fixed height */
+    padding: 8px;
+    margin: 8px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    text-align: left; /* Align text to left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+    position: relative; /* For positioning the overlay */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.card-wrapper {
-    position: absolute;
-    inset: 0;
-}
-
-.background-box {
-    background: #f3f3f3;
-    border-radius: 30px;
-    width: 331px;
-    height: 151px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.content-group {
-    width: 235px;
-    height: 55px;
-    position: static;
-}
-
-.text-group {
-    width: 149px;
-    height: 55px;
-    position: static;
-}
-
-.employee-name {
-    color: #020202;
-    text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    position: absolute;
-    left: calc(50% - 117.5px);
-    top: calc(50% - 27.5px);
-}
-
-.employee-role {
-    color: #020202;
-    text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.6000000238418579;
-    position: absolute;
-    left: calc(50% - 117.5px);
-    top: calc(50% - -8.5px);
-}
-
-.icon-group {
-    width: 54px;
-    height: 54px;
-    position: static;
-}
-
-.profile-picture {
-    background: #d9d9d9;
+.employee-card img {
+    width: 40px; /* Adjust image width */
+    height: 40px; /* Adjust image height */
     border-radius: 50%;
-    width: 54px;
-    height: 54px;
-    position: absolute;
-    left: 229px;
-    top: 48px;
+    margin-bottom: 15px;
 }
 
-.profile-icon {
-    width: 24px;
-    height: 24px;
+.employee-card h3 {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color:#000;
+}
+
+.employee-card p {
+    display: flex;
+    font-size: 8px;
+    color: #000000;;
+}
+
+.employee-card .quote-overlay {
     position: absolute;
-    left: 244px;
-    top: 63px;
-    overflow: visible;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333; /* Dark grey background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.employee-card .quote-overlay p {
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #F3F3F3;
+}
+
+.employee-card .quote-overlay .social-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.employee-card .quote-overlay .social-icons a {
+    color: #7e7e7e;
+    font-size: 18px;
+}
+
+.employee-card:hover .quote-overlay {
+    opacity: 1; /* Show the overlay on hover */
+    transform: translateX(8px) translateY(-4px);
+    
 }
 
 /*==============================
@@ -254,7 +348,7 @@ body{
 }
 
 .about-image{
-    width: 579px;
+    width: 700px;
     height: 507px;
     background: rgba(6, 5, 7, 0.1);
     border-radius: 90px;
@@ -263,7 +357,7 @@ body{
 .how-we-work-title{
     color: #f3f3f3;
     text-align: center;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 64px;
     font-weight: 600;
     position: relative;
@@ -274,16 +368,22 @@ body{
     align-items: center;
 }
 
+.outline-text{
+    align-items: center;
+    color:transparent;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(255, 255, 255)
+}
+
 ._01,
 ._02,
 ._03 {
-    
     box-sizing: border-box;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 128px;
     font-weight: 700;
-    opacity: 0.5;
+    opacity: 0.3;
     position: relative;
 }
 
@@ -319,7 +419,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 24px;
     font-weight: 700;
     position: relative;
@@ -328,7 +428,7 @@ body{
 .feature-box-description{
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -341,11 +441,12 @@ body{
 		Contact us Section
 ===============================*/
 
+
 .let-s-work-together {
     box-sizing: border-box;
     color: #ffffff;
     text-align: left;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 64px;
     line-height: 84px;
     font-weight: 600;
@@ -364,12 +465,13 @@ body{
 .super-drib {
     color: #ffffff;
     text-align: left;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 250px;
     font-weight: 600;
     opacity: 0.11999999731779099;
     position: relative;
     transform-origin: 0 0;
+    margin-top: 60px;
     transform: rotate(-20deg) scale(1, 1);
 }
 
@@ -377,7 +479,7 @@ body{
     border: none;
     background: transparent;
     color: #f3f3f3; 
-    font-family: "GentiumBasic-Regular", sans-serif; 
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 124.22%;
     font-weight: 400;
@@ -387,7 +489,7 @@ body{
     border: none;
     background: transparent;
     color: #f3f3f3;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 124.22%;
     font-weight: 400;
@@ -399,7 +501,7 @@ body{
     border: none;
     background: transparent;
     color: #f3f3f3;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 124.22%;
     font-weight: 400;
@@ -420,7 +522,7 @@ body{
 .send-an-inquiry-btn {
     color: #f3f3f3;
     text-align: center;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 34px;
     font-weight: 400;
@@ -441,7 +543,7 @@ body{
 
 .support-section{
     overflow: hidden;
-    display: block;
+    display: inline-flex;
 }
 
 .support{
@@ -471,13 +573,97 @@ body{
     opacity: 0.40; 
     color: #F3F3F3; 
     font-size: 16px;
-    font-family: Gentium Basic; 
+    font-family: "Eczar"; 
     font-weight: 400; 
     line-height: 19.88px; 
     word-wrap: break-word;
     text-align: center;
 }
 
+
+/*================================================
+    Get In Touch!
+================================================*/
+.get-in-touch-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .get-in-touch-title {
+    box-sizing: border-box;
+    color: #f5f5f5;
+    text-align: center;
+    font-family: "Eczar";
+    font-size: 64px;
+    font-weight: 700;
+    position: relative;
+    width: 100%;
+  }
+  
+  .contact-address, .contact-form {
+    flex: 1;
+  }
+  
+  .contact-address {
+    /* Add border for separation */
+    border-right: 1px solid #4f4f4f;
+    padding-right: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .contact-form-img {
+    box-sizing: border-box;
+    border-radius: 83px;
+    opacity: 0.4;
+    width: 179px;
+    height: 172px;
+    transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1);
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color:#000000;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  
+  .btn-line {
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-width: 1px 0 0 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 0;
+    position: relative;
+  }
+  
+  .send-an-inquiry-btn {
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+  
+  .main-footer {
+    text-align: center;
+  }
 
 /*================================================
     Footer 
@@ -506,7 +692,7 @@ body{
     opacity: 0.40; 
     color: #F3F3F3; 
     font-size: 16px;
-    font-family: Gentium Basic; 
+    font-family: "Eczar";
     font-weight: 400; 
     line-height: 19.88px; 
     word-wrap: break-word;

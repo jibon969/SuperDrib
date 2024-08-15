@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Eczar";
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  padding: 15px; /* Adjust padding to create space around the brand */
+  z-index: 0; /* Ensure the brand is above other elements */
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dropdown-content {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2;
+  overflow: hidden;
+  transform: translateY(-100%);
+  opacity:0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+#dropdown-content.visible {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.cross-button {
+  position: absolute;
+  top:20px;
+  right:20px;
+  background: none;
+  border:none;
+  font-size:2rem;
+  color:white;
+  cursor:pointer;
+}
+
+.hamburger{
+  cursor:pointer;
+}
+
+
+.subscribe-sectionx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-componentx {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Eczar";
+  font-size: 6.5rem;  /* Use a larger unit like rem */
+  line-height: 1;  /* Adjust line-height based on font size *//* Move to the left automatically */
+}
+.subscribe-componentx a{
+    text-decoration:none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .subscribe-component {
+    font-size: 1.5rem;  /* Adjust font size for smaller screens */
+  }
+}
