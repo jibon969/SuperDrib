@@ -6,13 +6,13 @@
 body{
     background-color: #000000;
     color: #ffffff;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
 }
 
 .container{
     background-color: #020202;
     color: #ffffff;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     padding:30px;
 }
 
@@ -29,7 +29,7 @@ body{
 .lets-work-line {
     color: #ffffff;
     text-align: left;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 70px;
     line-height: 1.5; 
     font-weight: 600;
@@ -51,7 +51,7 @@ body{
 .super-drib-logo {
     color: #ffffff;
     text-align: left;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     transform: rotate(-20deg) scale(1, 1);
     font-size: 200px;
     font-weight: 600;
@@ -64,7 +64,7 @@ body{
     border: none;
     background: transparent;
     color: #f3f3f3; 
-    font-family: "GentiumBasic-Regular", sans-serif; 
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 124.22%;
     font-weight: 400;
@@ -74,7 +74,7 @@ body{
     border: none;
     background: transparent;
     color: #f3f3f3;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 124.22%;
     font-weight: 400;
@@ -86,7 +86,7 @@ body{
     border: none;
     background: transparent;
     color: #f3f3f3;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 124.22%;
     font-weight: 400;
@@ -107,7 +107,7 @@ body{
 .send-an-inquiry-btn {
     color: #f3f3f3;
     text-align: center;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 34px;
     font-weight: 400;
@@ -132,7 +132,7 @@ body{
 .drop-email {
     color: #f3f3f3;
     text-align: left;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 48px;
     line-height: 68px;
     font-weight: 600;
@@ -141,7 +141,7 @@ body{
 .super-gmail-com{
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 32px;
     font-weight: 700;
     text-decoration: underline;
@@ -160,7 +160,7 @@ body{
 .email-us {
     color: #f3f3f3;
     text-align: center;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 34px;
     font-weight: 400; 
@@ -184,7 +184,7 @@ body{
 .find-our-locations {
     color: #ffffff;
     text-align: left;
-    font-family: "Eczar-SemiBold", sans-serif;
+    font-family: "Eczar";
     font-size: 70px;
     line-height: 1.5; 
     font-weight: 600;
@@ -220,7 +220,7 @@ body{
 .temperature {
     color: #f3f3f3;
     text-align: center;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 24px;
     font-weight: 700;
     position: relative;
@@ -229,7 +229,7 @@ body{
 .time {
     color: #f3f3f3;
     text-align: center;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 32px;
     font-weight: 700;
     position: relative;
@@ -244,7 +244,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 32px;
     font-weight: 700;
     position: relative;
@@ -254,7 +254,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
@@ -265,7 +265,7 @@ body{
 .address {
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
@@ -276,7 +276,7 @@ body{
 .address_details{
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -294,7 +294,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
@@ -305,7 +305,7 @@ body{
 .phone{
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     font-weight: 700;
     text-decoration: underline;
@@ -315,7 +315,7 @@ body{
 .contact-gmail {
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     font-weight: 700;
     text-decoration: underline;
@@ -333,7 +333,7 @@ body{
     box-sizing: border-box;
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Regular", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
@@ -344,7 +344,7 @@ body{
 .see-map {
     color: #f5f5f5;
     text-align: left;
-    font-family: "GentiumBasic-Bold", sans-serif;
+    font-family: "Eczar";
     font-size: 16px;
     font-weight: 700;
     text-decoration: underline;
@@ -382,7 +382,7 @@ body{
     box-sizing: border-box;
     color: #ffffff;
     text-align: center;
-    font-family: 'Eczar-SemiBold', sans-serif;
+    font-family: "Eczar";
     font-size: 48px;
     line-height: 84px;
     font-weight: 600;
@@ -447,7 +447,7 @@ body{
     opacity: 0.40; 
     color: #F3F3F3; 
     font-size: 16px;
-    font-family: Gentium Basic; 
+    font-family: "Eczar"; 
     font-weight: 400; 
     line-height: 19.88px; 
     word-wrap: break-word;

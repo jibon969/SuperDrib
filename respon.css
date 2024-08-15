@@ -1,326 +1,303 @@
-/*-----------------------------------------------
-                 Media Query
-------------------------------------------------*/
 @media (min-width: 280px) and (max-width: 320px) {
-    
-    /* Contact ----> drop-email ---*/
     .drop-email {
-        color: #f3f3f3;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 1px;
-        font-weight: 300;
+      color: #f3f3f3;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 1px;
+      font-weight: 300;
     }
-
-    /* Contact find location ------*/
     .find-our-locations {
-        color: #ffffff;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 4px;
-        line-height: 1.5; 
-        font-weight: 600;
-        position: relative;
-        margin-bottom: 50px; 
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 4px;
+      line-height: 1.5;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 50px;
     }
-    /*  Contact ==============> */
-    .support{
-        color: white; 
-        font-size: 20px; 
-        font-family: Eczar; 
-        font-weight: 500; 
-        line-height: 68px; 
-        word-wrap: break-word;
-        text-align: center;
-        margin-bottom: 5%; 
+    .support {
+      color: white;
+      font-size: 20px;
+      font-family: Eczar;
+      font-weight: 500;
+      line-height: 68px;
+      word-wrap: break-word;
+      text-align: center;
+      margin-bottom: 5%;
     }
-    
-}
-
-@media (min-width: 321px) and (max-width: 480px) {
-    
-    /* Contact find location ------*/
+  }
+  
+  /* Small devices (portrait phones, 321px to 480px) */
+  @media (min-width: 321px) and (max-width: 480px) {
     .find-our-locations {
-        color: #ffffff;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 40px;
-        line-height: 1.5; 
-        font-weight: 600;
-        position: relative;
-        margin-bottom: 50px; 
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 40px;
+      line-height: 1.5;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 50px;
     }
-    /*  Contact ==============> */
-    .support{
-        color: white; 
-        font-size: 20px; 
-        font-family: Eczar; 
-        font-weight: 500; 
-        line-height: 68px; 
-        word-wrap: break-word;
-        text-align: center;
-        margin-bottom: 5%; 
+    .support {
+      color: white;
+      font-size: 20px;
+      font-family: Eczar;
+      font-weight: 500;
+      line-height: 68px;
+      word-wrap: break-word;
+      text-align: center;
+      margin-bottom: 5%;
     }
-    
-}
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    
-    /*  Contact ==============> */
-    .support{
-        color: white; 
-        font-size: 20px; 
-        font-family: Eczar; 
-        font-weight: 500; 
-        line-height: 68px; 
-        word-wrap: break-word;
-        text-align: center;
-        margin-bottom: 5%; 
-    }
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    
-    /*  Contact ==============> */
-    .support{
-        color: white; 
-        font-size: 40px; 
-        font-family: Eczar; 
-        font-weight: 500; 
-        line-height: 68px; 
-        word-wrap: break-word;
-        text-align: center;
-        margin-bottom: 5%; 
-    }
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
-}
-
-/*X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
-}
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) {
-
-}
-
-/*-----------------------------------------------
-                 Max-width
-------------------------------------------------*/
-
-@media (max-width: 375px) {
-
+  }
+  
+  /* Medium devices (tablets, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
     .super-drib-logo {
-       display: none;
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      transform: rotate(-20deg) scale(1, 1);
+      font-size: 50px;
+      font-weight: 600;
+      opacity: 0.12;
+      transform-origin: 0 0;
+      position: relative;
     }
-    /* Contact ----> lets work---*/
     .lets-work-line {
-        color: #ffffff;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 25px;
-        line-height: 1.5; 
-        font-weight: 600;
-        position: relative;
-        margin-bottom: 50px; 
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 50px;
+      line-height: 1.5;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 50px;
     }
-    
-    /* Contact ----> drop-email ---*/
     .drop-email {
-        color: #f3f3f3;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 30px;
-        font-weight: 600;
+      color: #f3f3f3;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 30px;
+      font-weight: 600;
     }
-    
-    /* Contact ---> find location ---*/
+    .get-connected {
+      font-size: 36px;
+      line-height: 60px;
+    }
+    .social-icon {
+      min-width: 40px;
+      min-height: 40px;
+      margin: 5px;
+    }
+    .social-image {
+      max-width: 20px;
+      max-height: 20px;
+    }
+    .support {
+      color: white;
+      font-size: 20px;
+      font-family: Eczar;
+      font-weight: 500;
+      line-height: 68px;
+      word-wrap: break-word;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+  }
+  
+  /* Large devices (desktops, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .support {
+      color: white;
+      font-size: 40px;
+      font-family: Eczar;
+      font-weight: 500;
+      line-height: 68px;
+      word-wrap: break-word;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+  }
+  
+  /* X-Large devices (1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Add specific styles for X-Large devices if needed */
+  }
+  
+  /* XX-Large devices (1400px and up) */
+  @media (min-width: 1400px) {
+    /* Add specific styles for XX-Large devices if needed */
+  }
+  
+  /*-----------------------------------------------
+                   Max-width Adjustments
+  ------------------------------------------------*/
+  
+  /* Small screens (less than 375px) */
+  @media (max-width: 375px) {
+    .super-drib-logo {
+      display: none;
+    }
+    .lets-work-line {
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 25px;
+      line-height: 1.5;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 50px;
+    }
+    .drop-email {
+      color: #f3f3f3;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 30px;
+      font-weight: 600;
+    }
     .find-our-locations {
-        color: #ffffff;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 24px;
-        line-height: 1.5; 
-        font-weight: 600;
-        position: relative;
-        margin-bottom: 50px; 
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 24px;
+      line-height: 1.5;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 50px;
     }
-    
-    /* Contact ---> get-connected ======================================= */
     .get-connected {
-        font-size: 36px;
-        line-height: 60px;
+      font-size: 36px;
+      line-height: 60px;
     }
-
     .social-icon {
-        min-width: 10px;
-        min-height: 10px;
+      min-width: 10px;
+      min-height: 10px;
     }
-
     .social-image {
-        max-width: 10px;
-        max-height: 10px;
+      max-width: 10px;
+      max-height: 10px;
     }
-    /*  Contact ==============> */
-    .support{
-        color: white; 
-        font-size: 20px; 
-        font-family: Eczar; 
-        font-weight: 500; 
-        line-height: 68px; 
-        word-wrap: break-word;
-        text-align: center;
-        margin-bottom: 5%; 
+    .support {
+      color: white;
+      font-size: 20px;
+      font-family: Eczar;
+      font-weight: 500;
+      line-height: 68px;
+      word-wrap: break-word;
+      text-align: center;
+      margin-bottom: 5%;
     }
-}
-
-/*X-Small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+  }
+  
+  /* X-Small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
     .super-drib-logo {
-        display: none;
-     }
-    /* Contact ----> lets work---*/
+      display: none;
+    }
     .lets-work-line {
-        color: #ffffff;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 40px;
-        line-height: 1.5; 
-        font-weight: 600;
-        position: relative;
-        margin-bottom: 50px; 
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 40px;
+      line-height: 1.5;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 50px;
     }
-    /* Contact ----> drop-email ---*/
     .drop-email {
-        color: #f3f3f3;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 30px;
-        font-weight: 600;
+      color: #f3f3f3;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 30px;
+      font-weight: 600;
     }
-    /* Contact --> get-connected ---*/
     .get-connected {
-        font-size: 36px;
-        line-height: 60px;
+      font-size: 36px;
+      line-height: 60px;
     }
-
     .social-icon {
-        min-width: 10px;
-        min-height: 10px;
+      min-width: 10px;
+      min-height: 10px;
     }
-
     .social-image {
-        max-width: 10px;
-        max-height: 10px;
+      max-width: 10px;
+      max-height: 10px;
     }
-    /*  Contact ==============> */
-    .support{
-        color: white; 
-        font-size: 30px; 
-        font-family: Eczar; 
-        font-weight: 500; 
-        line-height: 68px; 
-        word-wrap: break-word;
-        text-align: center;
-        margin-bottom: 5%; 
+    .support {
+      color: white;
+      font-size: 30px;
+      font-family: Eczar;
+      font-weight: 500;
+      line-height: 68px;
+      word-wrap: break-word;
+      text-align: center;
+      margin-bottom: 5%;
     }
-}
-
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+  }
+  
+  /* Small devices (less than 768px) */
+  @media (max-width: 767.98px) {
     .super-drib-logo {
-        color: #ffffff;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        transform: rotate(-20deg) scale(1, 1);
-        font-size: 50px;
-        font-weight: 600;
-        opacity: 0.12; 
-        transform-origin: 0 0;
-        position: relative;
-     }
-    /* Contact ----> lets work---*/
+      display: none;
+    }
     .lets-work-line {
-        color: #ffffff;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 50px;
-        line-height: 1.5; 
-        font-weight: 600;
-        position: relative;
-        margin-bottom: 50px; 
+      color: #ffffff;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 50px;
+      line-height: 1.5;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: 50px;
     }
-   
-    /* Contact ----> drop-email ---*/
-   .drop-email {
-        color: #f3f3f3;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 30px;
-        font-weight: 600;
-    }
-    /* get-connected ========================== */
-    .get-connected {
-        font-size: 36px;
-        line-height: 60px;
-    }
-
-    .social-icon {
-        min-width: 40px;
-        min-height: 40px;
-        margin: 5px;
-    }
-
-    .social-image {
-        max-width: 20px;
-        max-height: 20px;
-    }
-    /*  Contact ========================== */
-    .support{
-        color: white; 
-        font-size: 20px; 
-        font-family: Eczar; 
-        font-weight: 500; 
-        line-height: 68px; 
-        word-wrap: break-word;
-        text-align: center;
-        margin-bottom: 5%; 
-    }
-}
-
-/*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-    .super-drib-logo {
-        display: none;
-     }
-    /* Contact ----> drop-email ---*/
     .drop-email {
-        color: #f3f3f3;
-        text-align: left;
-        font-family: "Eczar-SemiBold", sans-serif;
-        font-size: 30px;
-        font-weight: 600;
+      color: #f3f3f3;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 30px;
+      font-weight: 600;
     }
-   
-}
-
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-}
-
-/*X-Large devices (large desktops, less than 1400px)*/
-@media (max-width: 1399.98px) {
-
-}
-
-/*Except*/
-@media all and (max-width: 768px) {
-
-}
+    .get-connected {
+      font-size: 36px;
+      line-height: 60px;
+    }
+    .social-icon {
+      min-width: 40px;
+      min-height: 40px;
+      margin: 5px;
+    }
+    .social-image {
+      max-width: 20px;
+      max-height: 20px;
+    }
+    .support {
+      color: white;
+      font-size: 20px;
+      font-family: Eczar;
+      font-weight: 500;
+      line-height: 68px;
+      word-wrap: break-word;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+  }
+  
+  /* Medium devices (less than 992px) */
+  @media (max-width: 991.98px) {
+    .super-drib-logo {
+      display: none;
+    }
+    .drop-email {
+      color: #f3f3f3;
+      text-align: left;
+      font-family: "Eczar";
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+  
+  /* Large devices (less than 1200px) */
+  @media (max-width: 1199.98px) {
+  }

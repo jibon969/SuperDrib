@@ -9,150 +9,159 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- Fonts -->
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar%3A400%2C500%2C600"/>
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gentium+Basic%3A400%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar%3A400%2C500%2C600"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gentium+Basic%3A400%2C700"/>
     <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="hamburgr.css">
+    <link rel="stylesheet" href="style.css">
 
-    <title>About - SuperDib</title>
+    <title>About - SuperDrib</title>
   </head>
   <body>
 
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">SuperDib</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="work.html">Work</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid navbar-background">
+        <a class="navbar-brand" href="index.html">SuperDrib<span style="color:#FFC700">.</span></span></a>
+        <div id="dropdown-content" class="dropdown-content hidden"></div>
+        <div class="hamburger">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+          <div class="bar bar3"></div>
         </div>
       </div>
     </nav>
 
 
+  <!--About Us-->
     <section class="about-section">
       <div class="container">
         <div class="about-super-drib">About SuperDrib.</div>
         <div class="row">
           <div class="col">
-            <div class="custom-design">
-              AT SUPERDRIB, WE UNDERTAND THE VALUE OF YOUR TIME, WHICH IS WHY WE PLACE
+            <div class="custom-designee">
+              AT SUPERDRIB, WE UNDERSTAND THE VALUE OF YOUR TIME, WHICH IS WHY WE PLACE
               UTMOST IMPORTANCE ON SIMPLICITY AND EFFICIENCY. WITH OUR SKILLED TEAM, WE
               OFFER A COMPREHENSIVE RANGE OF SERVICES, ENCOMPASSING RESEARCH, PLANNING,
               CUSTOM DESIGN, AND DEVELOPMENT.
             </div>
             <div class="super-drib">SuperDrib.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="team-section">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h4 class="team_title">
-              We’ve got an entire team dedicated to supporting you and your business.
-            </h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="employee-card">
-              <div class="card-wrapper">
-                  <div class="background-box"></div>
-                  <div class="content-group">
-                      <div class="text-group">
-                          <div class="employee-name">Syed Shahriar</div>
-                          <div class="employee-role">Web Developer</div>
-                      </div>
-                      <div class="icon-group">
-                          <div class="profile-picture"></div>
-                          <svg class="profile-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 7C8 5.93913 8.42143 4.92172 9.17157 4.17157C9.92172 3.42143 10.9391 3 12 3C13.0609 3 14.0783 3.42143 14.8284 4.17157C15.5786 4.92172 16 5.93913 16 7C16 8.06087 15.5786 9.07828 14.8284 9.82843C14.0783 10.5786 13.0609 11 12 11C10.9391 11 9.92172 10.5786 9.17157 9.82843C8.42143 9.07828 8 8.06087 8 7ZM8 13C6.67392 13 5.40215 13.5268 4.46447 14.4645C3.52678 15.4021 3 16.6739 3 18C3 18.7956 3.31607 19.5587 3.87868 20.1213C4.44129 20.6839 5.20435 21 6 21H18C18.7956 21 19.5587 20.6839 20.1213 20.1213C20.6839 19.5587 21 18.7956 21 18C21 16.6739 20.4732 15.4021 19.5355 14.4645C18.5979 13.5268 17.3261 13 16 13H8Z" fill="black" />
-                          </svg>
-                      </div>
-                  </div>
-              </div>          
-            </div>
-          </div>
-          <div class="col-md-4 my-5">
-            <div class="employee-card">
-              <div class="card-wrapper">
-                  <div class="background-box"></div>
-                  <div class="content-group">
-                      <div class="text-group">
-                          <div class="employee-name">Syed Shahriar</div>
-                          <div class="employee-role">Web Developer</div>
-                      </div>
-                      <div class="icon-group">
-                          <div class="profile-picture"></div>
-                          <svg class="profile-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 7C8 5.93913 8.42143 4.92172 9.17157 4.17157C9.92172 3.42143 10.9391 3 12 3C13.0609 3 14.0783 3.42143 14.8284 4.17157C15.5786 4.92172 16 5.93913 16 7C16 8.06087 15.5786 9.07828 14.8284 9.82843C14.0783 10.5786 13.0609 11 12 11C10.9391 11 9.92172 10.5786 9.17157 9.82843C8.42143 9.07828 8 8.06087 8 7ZM8 13C6.67392 13 5.40215 13.5268 4.46447 14.4645C3.52678 15.4021 3 16.6739 3 18C3 18.7956 3.31607 19.5587 3.87868 20.1213C4.44129 20.6839 5.20435 21 6 21H18C18.7956 21 19.5587 20.6839 20.1213 20.1213C20.6839 19.5587 21 18.7956 21 18C21 16.6739 20.4732 15.4021 19.5355 14.4645C18.5979 13.5268 17.3261 13 16 13H8Z" fill="black" />
-                          </svg>
-                      </div>
-                  </div>
-              </div>          
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="employee-card">
-              <div class="card-wrapper">
-                  <div class="background-box"></div>
-                  <div class="content-group">
-                      <div class="text-group">
-                          <div class="employee-name">Syed Shahriar</div>
-                          <div class="employee-role">Web Developer</div>
-                      </div>
-                      <div class="icon-group">
-                          <div class="profile-picture"></div>
-                          <svg class="profile-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 7C8 5.93913 8.42143 4.92172 9.17157 4.17157C9.92172 3.42143 10.9391 3 12 3C13.0609 3 14.0783 3.42143 14.8284 4.17157C15.5786 4.92172 16 5.93913 16 7C16 8.06087 15.5786 9.07828 14.8284 9.82843C14.0783 10.5786 13.0609 11 12 11C10.9391 11 9.92172 10.5786 9.17157 9.82843C8.42143 9.07828 8 8.06087 8 7ZM8 13C6.67392 13 5.40215 13.5268 4.46447 14.4645C3.52678 15.4021 3 16.6739 3 18C3 18.7956 3.31607 19.5587 3.87868 20.1213C4.44129 20.6839 5.20435 21 6 21H18C18.7956 21 19.5587 20.6839 20.1213 20.1213C20.6839 19.5587 21 18.7956 21 18C21 16.6739 20.4732 15.4021 19.5355 14.4645C18.5979 13.5268 17.3261 13 16 13H8Z" fill="black" />
-                          </svg>
-                      </div>
-                  </div>
-              </div>          
-            </div>
+            <div class="about-super-drib">We've got an entire team dedicated to supporting you and your business</div>
           </div>
         </div>
       </div>
     </section>
 
 
+    
+  <!--Team Section-->
+
+  <section class="team-section">
+    <div class="container">
+      <div class="employee-cards-wrapper">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-6">
+          <div class="employee-card">
+            <img src="https://via.placeholder.com/40" alt="Amani Saad">
+            <h3>Amani Saad</h3>
+            <p>App Developer</p>
+            <div class="quote-overlay">
+              <p>“AT SUPERDRIB, WE UNDERSTAND THE VALUE OF YOUR TIME, WHICH IS WHY WE PLACE UTMOST IMPORTANCE ON SIMPLICITY AND EFFICIENCY.”</p>
+              <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+              <div class="col-md-4 col-sm-6">
+              <div class="employee-card">
+                <img src="https://via.placeholder.com/40" alt="Syed Shahriar">
+                <h3>Syed Shahriar</h3>
+                <p>Web Developer</p>
+                <div class="quote-overlay">
+                  <p>“AT SUPERDRIB, WE UNDERSTAND THE VALUE OF YOUR TIME, WHICH IS WHY WE PLACE UTMOST IMPORTANCE ON SIMPLICITY AND EFFICIENCY.”</p>
+                  <div class="social-icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="employee-card">
+                    <img src="https://via.placeholder.com/40" alt="Syed Shawon">
+                    <h3>Syed Shawon</h3>
+                    <p>UI/UX Designer</p>
+                    <div class="quote-overlay">
+                      <p>“AT SUPERDRIB, WE UNDERSTAND THE VALUE OF YOUR TIME, WHICH IS WHY WE PLACE UTMOST IMPORTANCE ON SIMPLICITY AND EFFICIENCY.”</p>
+                      <div class="social-icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                      <div class="employee-card">
+                        <img src="https://via.placeholder.com/40" alt="Marwa Saad">
+                        <h3>Marwa Saad</h3>
+                        <p>CEO & Co-Founder</p>
+                        <div class="quote-overlay">
+                          <p>“AT SUPERDRIB, WE UNDERSTAND THE VALUE OF YOUR TIME, WHICH IS WHY WE PLACE UTMOST IMPORTANCE ON SIMPLICITY AND EFFICIENCY.”</p>
+                          <div class="social-icons">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               <div class="col-md-4 col-sm-6">
+                          <div class="employee-card">
+                            <img src="https://via.placeholder.com/40" alt="Emily D'Souza">
+                            <h3>Emily D'Souza</h3>
+                            <p>Marketing Consultant</p>
+                            <div class="quote-overlay">
+                              <p>“AT SUPERDRIB, WE UNDERSTAND THE VALUE OF YOUR TIME, WHICH IS WHY WE PLACE UTMOST IMPORTANCE ON SIMPLICITY AND EFFICIENCY.”</p>
+                              <div class="social-icons">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        <!-- Repeat employee cards as needed -->
+      </div>
+    </div>
+  </section>
+  
+  <!--How we work Section-->
     <section class="how-we-work">
       <h3 class="text-center">
-        <img class="img-fluid about-image" src="assets/image-2-bg.png" alt="image is missing">
+        <img class="img-fluid about-image" src="assets/image-2-bg.png" alt="image is missing" style="max-width: fit-content;">
       </h3>
       <h3 class="how-we-work-title">How We Work</h3>
       <div class="container">
         <div class="row">
           <div class="col">
+            <div class = "outline-text">
             <div class="flex-container">
               <div class="_01">01</div>
               <div class="line-89"></div>
               <div class="ellipse-115"></div>
               <div class="line-89"></div>
-              <div class="_02">01</div>
+              <div class="_02">02</div>
               <div class="line-89"></div>
               <div class="ellipse-115"></div>
               <div class="line-89"></div>
@@ -191,82 +200,74 @@
         </div>
       </div>
     </section>
-    
+  
+    <!--Get in touch-->
+
     <section class="get-in-touch-section">
       <div class="container">
         <h3 class="get-in-touch-title">Let’s Get In Touch</h3>
+        <br>
         <div class="row">
-          <div class="col-md-6 my-5">
-            <div class="contact-address">
-              <div class="main-address mb-5">
-                <div class="left-line"></div>
-                <div class="address">
-                  2464 Royal Ln. Mesa, New Jersey 45463
-                </div>
-                <div class="email">superdrib@gmail.com</div>
-                <div class="phone_number">(406) 555-0120</div>
+          <div class="col-md-6 contact-address">
+            <div class="main-address mb-5">
+              <div class="address">
+                2464 Royal Ln. Mesa, New Jersey 45463
               </div>
-              <div class="main-address mb-5">
-                <div class="left-line"></div>
-                <div class="address">
-                  2464 Royal Ln. Mesa, New Jersey 45463
-                </div>
-                <div class="email">superdrib@gmail.com</div>
-                <div class="phone_number">(406) 555-0120</div>
-              </div>     
+              <div class="email">superdrib@gmail.com</div>
+              <div class="phone_number">(406) 555-0120</div>
             </div>
           </div>
-          <div class="col-md-6 my-5">
-            <div class="contact-form">
-                <form action="#">
-                    <div class="row">
-                        <div class="col mb-4">
-                            <div class="btn-style">
-                                <input type="text" class="form-control" placeholder="Name">
-                                <div class="btn-line"></div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="btn-style">
-                                <input type="email" class="form-control" placeholder="Email">
-                                <div class="btn-line"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col mb-5">
-                            <div class="btn-style">
-                                <input type="number" class="form-control" placeholder="Phone">
-                                <div class="btn-line"></div>
-                            </div>
-                        </div>
-                        <div class="col mb-5">
-                            <div class="btn-style">
-                                <input type="text" class="form-control" placeholder="Subject">
-                                <div class="btn-line"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col mb-5">
-                            <div class="btn-style">
-                                <textarea class="form-control" placeholder="Message"></textarea>
-                                <div class="btn-line"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn-default mb-5 send-an-inquiry-btn">
-                        SEND A MESSAGE
-                    </button>
-                </form>
-            </div>
-            <img class="contact-form-img img-fluid" src="assets/webtest-2.png" />      
+          <div class="col-md-6 contact-form">
+            <form action="#">
+              <div class="row">
+                <div class="col mb-4">
+                  <div class="btn-style">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <div class="btn-line"></div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="btn-style">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <div class="btn-line"></div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col mb-5">
+                  <div class="btn-style">
+                    <input type="number" class="form-control" placeholder="Phone">
+                    <div class="btn-line"></div>
+                  </div>
+                </div>
+                <div class="col mb-5">
+                  <div class="btn-style">
+                    <input type="text" class="form-control" placeholder="Subject">
+                    <div class="btn-line"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col mb-5">
+                  <div class="btn-style">
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                    <div class="btn-line"></div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-default mb-5 send-an-inquiry-btn">
+                SEND A MESSAGE
+              </button>
+            </form>
+            <img class="contact-form-img img-fluid" src="assets/webtest-2.png" alt="Contact form image" />
+          </div>
         </div>
       </div>
     </section>
 
- 
+   <!--Footer-->
+
     <footer id="main-footer">
         <div class="container">
             <div class="row">
@@ -280,6 +281,15 @@
     </footer>
     
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhG5xYEnKthsI5pv0F6C5Buq4N5UVa3ZZVnYx0IMwB34wvHe0HgO8xw4PaO7" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
   </html>
